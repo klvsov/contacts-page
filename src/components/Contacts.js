@@ -62,7 +62,7 @@ const Contacts = () => {
   const fTemp = [];
   const mTemp = [];
   const itTemp = [];
-
+  // eslint-disable-next-line
   telContacts.map((el) => {
     if (male && el.gender === 'male') {
       mTemp.push(el);
